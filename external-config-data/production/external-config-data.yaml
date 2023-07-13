@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   # AWS Load Balancer Controller configuration values - substitute with your resource ids
-  awsLoadBalancerControllerIamRoleArn: arn:aws:iam::290158964817:role/eksctl-my-eks-cluster-addon-iamserviceaccoun-Role1-1U7UUWNBNAQJN
+  awsLoadBalancerControllerIamRoleArn: arn:aws:iam::290158964817:role/eksctl-gitops-addon-iamserviceaccount-kube-s-Role1-ENDM2O6OPFCK
   clusterName: my-eks-cluster
 kind: ConfigMap
 metadata:
